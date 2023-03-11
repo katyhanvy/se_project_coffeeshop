@@ -68,6 +68,7 @@
     position: relative;
     top: 28px;
     left: 80px;
+
     max-width: 683px;
     font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
@@ -128,8 +129,8 @@
 }
 
 .recipes {
-    position: relative;
     padding-top: 100px;
+    padding-bottom: 215px;
     background-color: #0a2750;
     background-image: url(../images/background_recipes.svg);
     background-repeat: no-repeat;
@@ -153,12 +154,11 @@
     display: flex;
     justify-content: space-between;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 20px;
     line-height: 30px;
     color: #ffffff;
     margin-top: 24px;
-    margin-bottom: 215px;
 }
 .recipes__title {
     margin-left: 80px;
@@ -176,6 +176,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    margin: 24px 0 80px 80px;
+    margin-bottom: 80px;
+    margin-left: 80px;
     color: #ffffff;
+    column-gap: 24px;
 }
