@@ -128,6 +128,8 @@
 }
 
 .recipes {
+    position: relative;
+    padding-top: 100px;
     background-color: #0a2750;
     background-image: url(../images/background_recipes.svg);
     background-repeat: no-repeat;
@@ -159,7 +161,6 @@
     margin-bottom: 215px;
 }
 .recipes__title {
-    margin-top: 100px;
     margin-left: 80px;
     font-size: 44px;
     line-height: 52px;
