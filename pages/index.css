@@ -15,6 +15,7 @@
     background-size: cover;
     min-height: 720px;
     max-height: 800px;
+    padding: 30px 0 40px;
 }
 .nav {
     display: flex;
@@ -22,14 +23,14 @@
 }
 .nav__links {
     display: flex;
-    margin: 30px 80px 0 0;
+    margin: 0 80px 0 0;
     column-gap: 20px;
     padding: 0;
     list-style: none;
 }
 .logo {
     position: absolute;
-    margin: 30px 0 80px 30px;
+    margin: 0 0 80px 30px;
     width: 125px;
     height: 142px;
 }
@@ -54,7 +55,7 @@
     z-index: 1;
 }
 .header__span {
-    display: block;
+    display: flex;
     color: #2f80ed;
     font-style: italic;
     font-family: "Noto Serif";
@@ -79,22 +80,15 @@
     width: 646px;
     height: 568px;
 }
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #838383;
-}
 .header__footer {
+    display: flex;
     position: absolute;
     right: 80px;
     left: 80px;
     bottom: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .header__hours {
     display: flex;
@@ -125,7 +119,7 @@
     font-size: 16px;
     line-height: 20px;
     color: #838383;
-    margin-top: 0;
+    margin: 0px;
 }
 .recipes {
     padding-top: 100px;
