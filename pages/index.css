@@ -2,7 +2,6 @@
     min-width: 1100px;
     max-width: 1600px;
     font-family: "Inter", "Arial", sans-serif;
-    font-family: "Noto Serif", "Times New Roman" serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -144,7 +143,7 @@
     margin-top: 80px;
     width: 480px;
     height: 273px;
-    border-width: none;
+    border-width: 0;
 }
 .recipes__video-caption {
     display: flex;
