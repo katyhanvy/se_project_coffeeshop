@@ -253,7 +253,6 @@
     align-items: center;
     justify-content: center;
     column-gap: 12px;
-    height: 12px;
-    width: 12px;
+    margin-top: 32px;
     margin-right: 12px;
 }

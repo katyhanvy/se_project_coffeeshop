@@ -142,38 +142,33 @@
                             <input
                                 type="datetime-local"
                                 class="form__input"
-                                placeholder="mm/dd/yy"
                                 required
                             />
                             <label class="form__label" id="email"
                                 >Your email *</label
                             >
                             <input
-                                type="text"
+                                type="email"
                                 class="form__input"
                                 placeholder="email@email.com"
                                 required
                             />
                         </fieldset>
-                        <fieldset class="form__fieldset">
-                            <button class="form__button" type="book">
-                                Book a table
-                            </button>
-                        </fieldset>
-                        <fieldset class="form__fieldset">
-                            <label
-                                class="form__label form__label_type_checkbox"
-                                for="terms"
-                                id="terms"
-                            >
-                                <input
-                                    type="checkbox"
-                                    class="checkbox"
-                                    name="terms"
-                                    id="terms"
-                                />I agree with the terms of use</label
-                            >
-                        </fieldset>
+
+                        <button class="form__button" type="submit">
+                            Book a table
+                        </button>
+
+                        <label
+                            class="form__label form__label_type_checkbox"
+                            for="checkbox"
+                        >
+                            <input
+                                class="form__label"
+                                type="checkbox"
+                                id="checkbox"
+                            />I agree with the terms of use</label
+                        >
                     </form>
                 </section>
                 <section class="menu"></section>
