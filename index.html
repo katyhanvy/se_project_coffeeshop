@@ -140,15 +140,9 @@
                             />
                             <label class="form_label">Date & time *</label>
                             <input
-                                type="date"
-                                class="form__input form__input_date"
-                                placeholder="mm/dd/yy"
-                                required
-                            />
-                            <input
-                                type="time"
+                                type="datetime-local"
                                 class="form__input"
-                                placeholder="--:-- --"
+                                placeholder="mm/dd/yy"
                                 required
                             />
                             <label class="form__label" id="email"
@@ -166,16 +160,17 @@
                                 Book a table
                             </button>
                         </fieldset>
-                        <form class="form__fieldset">
-                            <label type="checkbox">
-                                <input
-                                    type="checkbox"
-                                    class="invisible-checkbox"
-                                />
-                                <span class="visible-checkbox"></span>
-                                I agree with the terms of use
-                            </label>
-                        </form>
+                        <fieldset class="form__fieldset">
+                            <input
+                                type="checkbox"
+                                class="form__input form__input_type_checkbox"
+                                name="terms"
+                                id="terms"
+                            />
+                            <label class="form__label" for="terms" id="terms"
+                                >I agree with the terms of use</label
+                            >
+                        </fieldset>
                     </form>
                 </section>
                 <section class="menu"></section>
