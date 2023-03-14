@@ -178,3 +178,67 @@
     color: #ffffff;
     column-gap: 24px;
 }
+.reservation {
+    background-color: #d9e7ff;
+    background-image: url(/images/background_reservation.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.form {
+    flex-direction: column;
+}
+.form__fieldset {
+    max-width: 385px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.reservation__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+.form__label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    margin-bottom: 32px;
+}
+.form__input {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    border-radius: 4px;
+}
+.form__button {
+    appearance: button;
+    background-color: #2f80ed;
+}
+.form__button[type="book"] {
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 32px;
+    margin-bottom: 120px;
+    height: 60px;
+    color: #ffffff;
+    width: 385px;
+}
