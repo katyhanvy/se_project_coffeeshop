@@ -243,10 +243,11 @@
     line-height: 20px;
     appearance: button;
     background-color: #2f80ed;
-    margin-top: 32px;
+    margin: 32px auto 0;
     width: 385px;
     height: 60px;
     color: #ffffff;
+    display: block;
 }
 .form__label_type_checkbox {
     display: flex;
