@@ -1,3 +1,11 @@
+.form {
+    padding: 20px 128px;
+    box-sizing: border-box;
+    max-width: 641px;
+}
+.form__fieldset {
+    border: none;
+}
 .form__label {
     font-family: Inter;
     font-style: normal;

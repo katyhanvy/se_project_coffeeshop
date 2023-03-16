@@ -118,7 +118,6 @@
                 </section>
                 <section class="reservation">
                     <h3 class="reservation__title">Book a table</h3>
-
                     <form class="form reservation__form">
                         <fieldset class="form__fieldset">
                             <label class="form__label" id="name">Name *</label>
@@ -153,21 +152,23 @@
                                 required
                             />
                         </fieldset>
-
-                        <button class="form__button" type="submit">
-                            Book a table
-                        </button>
-
-                        <label
-                            class="form__label form__label_type_checkbox"
-                            for="checkbox"
-                        >
-                            <input
-                                class="form__label"
-                                type="checkbox"
-                                id="checkbox"
-                            />I agree with the terms of use</label
-                        >
+                        <fieldset class="form__fieldset">
+                            <button class="form__button" type="submit">
+                                Book a table
+                            </button>
+                        </fieldset>
+                        <fieldset class="form__fieldset">
+                            <label
+                                class="form__label form__label_type_checkbox"
+                                for="checkbox"
+                            >
+                                <input
+                                    class="form__label"
+                                    type="checkbox"
+                                    id="checkbox"
+                                />I agree with the terms of use</label
+                            >
+                        </fieldset>
                     </form>
                 </section>
                 <section class="menu">
@@ -248,9 +249,65 @@
                         </div>
                     </div>
                 </section>
-                <section class="about"></section>
+                <section class="about">
+                    <h4 class="about__title">About the coffee shop</h4>
+                    <div class="about__content">
+                        <p class="about__paragraph">
+                            Our coffee shop is located in the Practicum
+                            Library's hall. It features 6 tables and free WiFi.
+                        </p>
+                        <p class="about__paragraph">
+                            Our main mission is keeping guests cozy and
+                            energized.
+                        </p>
+                        <p class="about__paragraph">
+                            Besides that, we try to reduce our environmental
+                            impact -- so we don't sell single-use cups. But you
+                            can buy one of our reusable cups!
+                        </p>
+                    </div>
+                    <div classs="circle">
+                        <div
+                            class="about__circle about__circle_animation_blurred"
+                        ></div>
+                    </div>
+                </section>
             </main>
-            <footer class="footer"></footer>
+            <footer class="footer">
+                <div class="footer__content">
+                    <div class="footer__list">
+                        <li class="footer__list-item">
+                            <img
+                                class="footer__logo"
+                                src="./images/practicum_logo.svg "
+                                alt="practicum logo"
+                            />
+                        </li>
+                        <h5 class="footer__social-heading">Social media</h5>
+                        <li class="footer__list-item">
+                            <a href="#footer" class="footer__column-link">
+                                <img
+                                    class="footer__social-icon"
+                                    src="./images/facebook_white.svg"
+                                    alt="facebook symbol"
+                                />
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#footer" class="footer__column-link">
+                                <img
+                                    class="footer__social-icon"
+                                    src="./images/instagram_white.svg"
+                                    alt="IG symbol"
+                                />
+                                Instagram
+                            </a>
+                        </li>
+                    </div>
+                    <div class="footer__copyright">&copy;2023 Katy Hanvy</div>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
