@@ -4,21 +4,23 @@
     }
     50% {
         transform: scale(1.2);
-        opacity: 1;
+        opacity: 0.6;
     }
     100% {
-        transform: scale(0.8);
+        transform: scale(1);
     }
 }
 
 .about {
     background-color: #0a2850;
     box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
 }
 .about__title {
-    display: flex;
-    padding-top: 100px;
-    margin-left: 80px;
     max-width: 251px;
     font-family: "Inter";
     font-style: normal;
@@ -28,13 +30,11 @@
     position: relative;
     color: #ffffff;
     z-index: 1;
+    margin: 0;
 }
 .about__content {
     display: flex;
-    align-items: flex-end;
     flex-direction: column;
-    padding-right: 80px;
-    padding-bottom: 173px;
 }
 .about__paragraph {
     font-family: "Noto Serif";
@@ -45,16 +45,18 @@
     line-height: 30px;
     gap: 20px;
     max-width: 660px;
+    flex-direction: column;
+    margin: 0 0 20px 0;
 }
 .about__circle {
     background-color: #2f80ed;
     border-radius: 50%;
     position: absolute;
+    width: 426px;
+    height: 426px;
     z-index: 0;
     top: -152px;
     left: -129px;
-    width: 426px;
-    height: 426px;
 }
 .about__circle_animation_blurred {
     animation: pulsate 1.3s ease-in-out infinite;

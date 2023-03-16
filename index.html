@@ -34,12 +34,20 @@
                 />
                 <nav class="nav">
                     <ul class="nav__links">
-                        <li>Menu</li>
+                        <li>
+                            <a href="#menu" class="nav__link">Menu</a>
+                        </li>
                         <li>
                             <a href="#recipes" class="nav__link">Recipes</a>
                         </li>
-                        <li>Book a table</li>
-                        <li>Contacts</li>
+                        <li>
+                            <a href="#bookatable" class="nav__link"
+                                >Book a table</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#contacts" class="nav__link">Contacts</a>
+                        </li>
                     </ul>
                 </nav>
                 <h1 class="header__title">
@@ -55,21 +63,19 @@
                     src="/images/inside_coffee_shop.png"
                     alt="student and worker in coffee shop"
                 />
-                <div class="footer">
-                    <div class="header__footer">
-                        <div class="header__hours">
-                            <p class="header__paragraph">Hours:</p>
-                            <p class="header__paragraph">
-                                Monday - Friday (10:00 - 19:00)
-                            </p>
-                            <p class="header__paragraph">
-                                Saturday - Sunday (11:00 - 18:00)
-                            </p>
-                        </div>
-                        <p class="header__address">
-                            200 Success Avenue, The Town of Practicum
+                <div class="header__footer">
+                    <div class="header__hours">
+                        <p class="header__paragraph">Hours:</p>
+                        <p class="header__paragraph">
+                            Monday - Friday (10:00 - 19:00)
+                        </p>
+                        <p class="header__paragraph">
+                            Saturday - Sunday (11:00 - 18:00)
                         </p>
                     </div>
+                    <p class="header__address">
+                        200 Success Avenue, The Town of Practicum
+                    </p>
                 </div>
             </header>
 
@@ -117,7 +123,9 @@
                     </div>
                 </section>
                 <section class="reservation">
-                    <h3 class="reservation__title">Book a table</h3>
+                    <h3 class="reservation__title" id="bookatable">
+                        Book a table
+                    </h3>
                     <form class="form reservation__form">
                         <fieldset class="form__fieldset">
                             <label class="form__label" id="name">Name *</label>
@@ -172,14 +180,14 @@
                     </form>
                 </section>
                 <section class="menu">
-                    <h4 class="menu__title">Menu</h4>
+                    <h4 class="menu__title" id="menu">Menu</h4>
                     <p class="menu__subtitle">
                         We brew coffee from locally roasted, Fairtrade certified
                         beans and use bidegradable cups. All teas from our
                         collection are $2/cup.
                     </p>
                     <div class="menu__cards">
-                        <div class="card">
+                        <ul class="card">
                             <h4 class="card__title">Filter</h4>
                             <li class="card__list-item">
                                 Regular (12oz)
@@ -201,8 +209,8 @@
                                 Iced Coffee (16oz)
                                 <span class="card__list-divider"></span>$1.25
                             </li>
-                        </div>
-                        <div class="card">
+                        </ul>
+                        <ul class="card">
                             <h4 class="card__title">Espresso</h4>
                             <li class="card__list-item">
                                 Macchiato
@@ -219,8 +227,8 @@
                                 Sunrise in the Bay Area (decaf)
                                 <span class="card__list-divider"></span>$10
                             </li>
-                        </div>
-                        <div class="card">
+                        </ul>
+                        <ul class="card">
                             <h4 class="card__title">Baked Goods</h4>
                             <li class="card__list-item">
                                 Almond Croissant
@@ -246,7 +254,7 @@
                                 Fresh Bug'uette
                                 <span class="card__list-divider"></span>$0.25
                             </li>
-                        </div>
+                        </ul>
                     </div>
                 </section>
                 <section class="about">
@@ -266,11 +274,9 @@
                             can buy one of our reusable cups!
                         </p>
                     </div>
-                    <div class="about__circle">
-                        <div
-                            class="about__circle about__circle_animation_blurred"
-                        ></div>
-                    </div>
+                    <div
+                        class="about__circle about__circle_animation_blurred"
+                    ></div>
                 </section>
             </main>
             <footer class="footer">
@@ -280,10 +286,14 @@
                         src="./images/practicum_logo.svg "
                         alt="practicum logo"
                     />
-                    <div class="footer__list">
+                    <ul class="footer__list">
                         <h5 class="footer__social-heading">Social media</h5>
                         <li class="footer__list-item">
-                            <a href="#footer" class="footer__column-link">
+                            <a
+                                href="#footer"
+                                class="footer__social-link"
+                                id="contacts"
+                            >
                                 <img
                                     class="footer__social-icon"
                                     src="./images/facebook_white.svg"
@@ -293,7 +303,7 @@
                             </a>
                         </li>
                         <li class="footer__list-item">
-                            <a href="#footer" class="footer__column-link">
+                            <a href="#footer" class="footer__social-link">
                                 <img
                                     class="footer__social-icon"
                                     src="./images/instagram_white.svg"
@@ -302,7 +312,7 @@
                                 Instagram
                             </a>
                         </li>
-                    </div>
+                    </ul>
                 </div>
             </footer>
             <div class="footer__copyright">&copy;2023 Katy Hanvy</div>
