@@ -18,7 +18,7 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    padding: 119px;
+    padding: 100px 0 0 80px;
 }
 .about__title {
     max-width: 251px;
@@ -37,7 +37,7 @@
     flex-direction: column;
 }
 .about__paragraph {
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
     color: #ffffff;

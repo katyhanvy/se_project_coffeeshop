@@ -92,7 +92,6 @@
                                 class="recipes__iframe"
                                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                                 title="YouTube video player"
-                                style="border: 0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen
                             ></iframe>
@@ -106,7 +105,6 @@
                                 class="recipes__iframe"
                                 src="https://www.youtube.com/embed/st571DYYTR8"
                                 title="YouTube video player"
-                                style="border: 0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen
                             >
@@ -171,11 +169,11 @@
                         </fieldset>
                         <fieldset class="form__fieldset">
                             <label
-                                class="form__checkbox form__checkbox_type_checkbox"
+                                class="form__label form__label_type_checkbox"
                                 for="checkbox"
                             >
                                 <input
-                                    class="form__label"
+                                    class="form__label_type_checkbox"
                                     type="checkbox"
                                     id="checkbox"
                                 />I agree with the terms of use</label
@@ -305,36 +303,38 @@
                         src="./images/practicum_logo.svg "
                         alt="practicum logo"
                     />
-                    <h5 class="footer__social-heading">Social media</h5>
-                    <ul class="footer__list">
-                        <li class="footer__list-item">
-                            <a
-                                href="#footer"
-                                class="footer__social-link"
-                                id="contacts"
-                            >
-                                <img
-                                    class="footer__social-icon"
-                                    src="./images/facebook_white.svg"
-                                    alt="facebook symbol"
-                                />
-                                Facebook
-                            </a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a href="#footer" class="footer__social-link">
-                                <img
-                                    class="footer__social-icon"
-                                    src="./images/instagram_white.svg"
-                                    alt="IG symbol"
-                                />
-                                Instagram
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer__copyright">&copy;2023 Katy Hanvy</div>
+                    <div class="footer__social">
+                        <h2 class="footer__social-heading">Social media</h2>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a
+                                    href="#footer"
+                                    class="footer__social-link"
+                                    id="contacts"
+                                >
+                                    <img
+                                        class="footer__social-icon"
+                                        src="./images/facebook_white.svg"
+                                        alt="facebook symbol"
+                                    />
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#footer" class="footer__social-link">
+                                    <img
+                                        class="footer__social-icon"
+                                        src="./images/instagram_white.svg"
+                                        alt="IG symbol"
+                                    />
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </footer>
+            <div class="footer__copyright">&copy;2023 Katy Hanvy</div>
         </div>
     </body>
 </html>
