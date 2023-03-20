@@ -54,7 +54,7 @@
     bottom: 40px;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    box-sizing: border-box;
 }
 .header__paragraph {
     margin: 0;
