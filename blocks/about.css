@@ -18,7 +18,7 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    padding: 100px 0 173px 80px;
+    padding: 100px 80px 173px 80px;
 }
 .about__title {
     max-width: 251px;
@@ -35,6 +35,7 @@
 .about__content {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 .about__paragraph {
     font-family: "Noto Serif", "Times New Roman", serif;
@@ -44,7 +45,7 @@
     font-size: 20px;
     line-height: 30px;
     max-width: 660px;
-    margin: 0 0 20px 0;
+    margin: 0;
 }
 .about__paragraph:last-child {
     margin: 0;

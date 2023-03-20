@@ -24,8 +24,9 @@
     text-align: center;
 }
 .menu__subtitle {
-    margin: 24px 0 0 0;
-    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 100px;
+    align-content: center;
     font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
