@@ -21,6 +21,8 @@
     font-size: 44px;
     line-height: 52px;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .menu__subtitle {
     margin-top: 24px;

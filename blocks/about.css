@@ -35,6 +35,7 @@
 .about__content {
     display: flex;
     flex-direction: column;
+    margin-top: 19px;
     gap: 20px;
 }
 .about__paragraph {
@@ -45,9 +46,6 @@
     font-size: 20px;
     line-height: 30px;
     max-width: 660px;
-    margin: 0;
-}
-.about__paragraph:last-child {
     margin: 0;
 }
 .about__circle {
